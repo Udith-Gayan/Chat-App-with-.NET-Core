@@ -1,0 +1,20 @@
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Public Chat.exe
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Public Chat.deps.json
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Public Chat.runtimeconfig.json
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Public Chat.runtimeconfig.dev.json
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Public Chat.dll
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\bin\Debug\netcoreapp3.1\Public Chat.pdb
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.csprojAssemblyReference.cache
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.AssemblyInfoInputs.cache
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.AssemblyInfo.cs
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.csproj.CoreCompileInputs.cache
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.MvcApplicationPartsAssemblyInfo.cache
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.RazorTargetAssemblyInfo.cache
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\staticwebassets\Public Chat.StaticWebAssets.Manifest.cache
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\staticwebassets\Public Chat.StaticWebAssets.xml
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.dll
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.pdb
+D:\Udith\Projects\Chat App\backend\Public Chat\Public Chat\obj\Debug\netcoreapp3.1\Public Chat.genruntimeconfig.cache
