@@ -10,6 +10,7 @@ using Public_Chat.ReqDto;
 
 namespace Public_Chat.Controllers
 {
+    [Produces("application/json")]
     [Route("api/chat")]
     [ApiController]
     public class ChatController : ControllerBase
@@ -26,7 +27,7 @@ namespace Public_Chat.Controllers
         public IActionResult SendRequest([FromBody] MessageDto msg)
         {
             _hubContext.Clients.All.SendAsync("ReceiveOne", msg.user, msg.msgText);
-            return Ok();
+            return Ok("foo");
         }
     }
 }

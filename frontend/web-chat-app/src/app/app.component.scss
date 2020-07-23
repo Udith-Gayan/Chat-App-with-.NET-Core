@@ -14,6 +14,12 @@ h2 {
     margin: 0;
 }
 
+.msg-italic-style {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
 
 // Header 
 .ud-header {
@@ -38,7 +44,6 @@ h2 {
 
 // body
 .ud-body {
-    // background-color: blueviolet;
     position: fixed;
     top: 0; bottom: 0;
     left: 0;
@@ -51,12 +56,32 @@ h2 {
     .msg-box {
         width: 100%;
         height: calc(100% - 140px);    // bottom-margin has 120px
-        background-color: darkgrey;
+        // background-color: darkgrey;
         margin-top: 20px;
         border: 2px solid #191D32;
         border-radius: .5em;
+        padding: 10px 30px;
+        font-size: 14px;
 
         overflow: auto;
+
+        ul {
+            list-style: none;
+
+            .ex-msg {
+                margin-bottom: 10px;
+                color: #459c1a;
+
+                text-align: left;
+            }
+
+            .in-msg {
+                margin-bottom: 10px;
+                color: #DD1155;
+ 
+                text-align: right;
+            }
+        }
         
     }
 
@@ -127,6 +152,7 @@ h2 {
 
         .msg-box {
             height: calc(100% - 180px);  
+            padding: 10px 10px;
         }
 
     }

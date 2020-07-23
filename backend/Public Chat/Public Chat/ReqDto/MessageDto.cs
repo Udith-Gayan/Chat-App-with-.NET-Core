@@ -7,7 +7,9 @@ namespace Public_Chat.ReqDto
 {
     public class MessageDto
     {
-        public string user;
-        public string msgText;
+        public string user { get; set; }
+        public string msgText { get; set; }
+
+
     }
 }

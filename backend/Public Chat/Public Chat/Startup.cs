@@ -28,6 +28,14 @@ namespace Public_Chat
         {
             services.AddControllers();
             services.AddSignalR();            // Add this service too
+
+            services.AddCors(options => options.AddPolicy("CorsPolicy",
+            builder =>
+            {
+                builder.AllowAnyMethod().AllowAnyHeader()
+                       .WithOrigins("http://localhost:4201")
+                       .AllowCredentials();
+            }));
         }
 
         
@@ -43,12 +51,15 @@ namespace Public_Chat
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors("CorsPolicy");
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
                 endpoints.MapHub<ChatHub>("/chatsocket");     // path will look like this https://localhost:44379/chatsocket 
             });
+
+            
         }
     }
 }
