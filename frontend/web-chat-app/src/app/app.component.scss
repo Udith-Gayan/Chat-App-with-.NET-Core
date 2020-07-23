@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Shared Styles
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+// Header 
+.ud-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    background-color: rgb(25, 29, 50);
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+
+    h2 {
+        color: #FDFFFF;
+    }
+}
+
+// body
+.ud-body {
+    // background-color: blueviolet;
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0;
+    right: 0;
+
+
+    margin: 9vh 10% 2vh;
+    padding: 0 10% 0;
+
+    .msg-box {
+        width: 100%;
+        height: calc(100% - 140px);    // bottom-margin has 120px
+        background-color: darkgrey;
+        margin-top: 20px;
+        border: 2px solid #191D32;
+        border-radius: .5em;
+
+        overflow: auto;
+        
+    }
+
+    .ud-flex-row {
+        margin-top: 20px;
+        height: 40px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .msg-input {
+            height: 100%;
+            border-radius: .5em;
+            border: 0px solid rgba(0, 0, 0, 0);
+            padding: 10px;
+            flex: 1 1 0;
+        }
+
+        .send-btn {
+            height: 100%;
+            width: 100px;
+            border-radius: .3em;
+            background-color: #DD1155;
+            margin-left: 20px;
+            border: 0px solid rgba(0, 0, 0, 0);
+            font-size: 25px;
+            color: #FDFFFF;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .ud-flex-row {
+            flex-direction: column;
+            align-items: flex-start;
+            height: 80px;
+
+            .msg-input {
+                width: 100%;
+            }
+    
+            .send-btn {
+                margin-left: 0px;
+                font-size: 20px;
+                margin-top: 7px;
+                height: 80%;
+            }
+        }
+    }
+
+    .name-box {
+        margin-top: 10px;
+        height: 40px;
+        width: 180px;
+        border-radius: .5em;
+        border: 0px solid rgba(0, 0, 0, 0);
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ud-body {
+        margin: 9vh 5% 2vh;
+        padding: 0 5% 0;
+
+        .msg-box {
+            height: calc(100% - 180px);  
+        }
+
+    }
+}
+
+
+
+
+
