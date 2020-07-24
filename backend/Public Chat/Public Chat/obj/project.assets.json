@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\Public Chat.csproj",
-      "projectName": "Public Chat",
-      "projectPath": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\Public Chat.csproj",
+      "projectUniqueName": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\PublicChat.csproj",
+      "projectName": "PublicChat",
+      "projectPath": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\PublicChat.csproj",
       "packagesPath": "C:\\Users\\Udith\\.nuget\\packages\\",
       "outputPath": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\obj\\",
       "projectStyle": "PackageReference",

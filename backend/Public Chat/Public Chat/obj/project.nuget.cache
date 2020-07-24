@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3PvZQGUmzWRivOYutp/89gUs3GkvcvVSWzHVmU04e78DJgfEIp2lg2iB/vfDFNFK7SEpFx9jED1L827xDT/XrA==",
+  "dgSpecHash": "LoElgYgJZ8kpZNKLjxCqMFxN7KoYPuJ5I7mEtFnidmksF1Prg9O1+nHNojXpeo7kcyp6TD2eqNAZn46x1JEmvw==",
   "success": true,
-  "projectFilePath": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\Public Chat.csproj",
+  "projectFilePath": "D:\\Udith\\Projects\\Chat App\\backend\\Public Chat\\Public Chat\\PublicChat.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
