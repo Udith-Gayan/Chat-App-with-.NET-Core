@@ -33,7 +33,7 @@ namespace Public_Chat
             builder =>
             {
                 builder.AllowAnyMethod().AllowAnyHeader()
-                       .WithOrigins("https://public-chat-app.netlify.com")
+                       .WithOrigins("https://public-chat-app.netlify.app")
                        .AllowCredentials();
             }));
         }
