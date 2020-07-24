@@ -36,7 +36,6 @@ export class AppComponent implements OnInit {
     newObj.user = obj.user;
     newObj.msgText = obj.msgText;
     this.msgInboxArray.push(newObj);
-
   }
 }
 
