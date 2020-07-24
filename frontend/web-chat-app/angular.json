@@ -121,8 +121,17 @@
               "devServerTarget": "web-chat-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/web-chat-app",
+            "netlifyToken": "",
+            "siteId": "d32f7e96-c6c2-453a-a3e2-8eee7fecd7d6"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "web-chat-app"
 }
