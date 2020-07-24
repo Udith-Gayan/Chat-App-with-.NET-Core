@@ -27,7 +27,7 @@ namespace Public_Chat.Controllers
         public IActionResult SendRequest([FromBody] MessageDto msg)
         {
             _hubContext.Clients.All.SendAsync("ReceiveOne", msg.user, msg.msgText);
-            return Ok("foo");
+            return Ok();
         }
     }
 }

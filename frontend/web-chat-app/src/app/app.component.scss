@@ -55,8 +55,7 @@ h2 {
 
     .msg-box {
         width: 100%;
-        height: calc(100% - 140px);    // bottom-margin has 120px
-        // background-color: darkgrey;
+        height: calc(100% - 140px); 
         margin-top: 20px;
         border: 2px solid #191D32;
         border-radius: .5em;
@@ -101,6 +100,13 @@ h2 {
             border: 0px solid rgba(0, 0, 0, 0);
             padding: 10px;
             flex: 1 1 0;
+            border: 1.5px solid #DD1155;
+        }
+
+        .msg-input:focus {
+            outline: none;
+            border-color: #DD1155;
+            box-shadow: 0 0 5px #DD1155;
         }
 
         .send-btn {
@@ -112,7 +118,18 @@ h2 {
             border: 0px solid rgba(0, 0, 0, 0);
             font-size: 25px;
             color: #FDFFFF;
+            position: relative;
         }
+
+        .send-btn:focus {
+            outline: none;
+            border-color: #DD1155;
+            box-shadow: 0 0 5px #DD1155;
+        }
+
+        
+
+
     }
 
     @media screen and (max-width: 500px) {
@@ -142,6 +159,11 @@ h2 {
         border: 0px solid rgba(0, 0, 0, 0);
         padding: 10px;
         font-size: 15px;
+        border: 1px solid #b423d1;
+    }
+
+    .name-box:focus {
+        outline: none;
     }
 }
 
