@@ -42,16 +42,39 @@ h2 {
     }
 }
 
-// body
-.ud-body {
+// Profile Icon
+.profile-icon {
+    position: fixed;
+    right: 30px;
+    top: 2.4vh;
+    
+    i {
+        color: #ffffff;
+        font-size: 30px;
+
+    }
+}
+
+
+//body + footer
+.body-footer {
+
     position: fixed;
     top: 0; bottom: 0;
     left: 0;
     right: 0;
 
+    margin-top: 9vh;
+    overflow-y: auto;
 
-    margin: 9vh 10% 2vh;
-    padding: 0 10% 0;
+}
+
+
+// body
+.ud-body {
+    padding: 0 20% 0;
+
+    height: 90%;
 
     .msg-box {
         width: 100%;
@@ -180,6 +203,12 @@ h2 {
     }
 }
 
+
+// Footer
+.ud-footer {
+    height: auto;
+    background-color: #220342;
+}
 
 
 

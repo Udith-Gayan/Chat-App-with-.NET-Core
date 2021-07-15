@@ -1,0 +1,39 @@
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    flex-direction: row;
+
+
+}
+
+.ud-icon{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+
+@media screen and (max-width: 689px) {
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    
+        flex-direction: column;
+    }
+
+    .detail-delimiter {
+        display: none;
+    }
+}
