@@ -3,16 +3,17 @@ import * as signalR from '@microsoft/signalr';          // import signalR
 import { HttpClient } from '@angular/common/http';
 import { MessageDto } from '../Dto/MessageDto';
 import { Observable, Subject } from 'rxjs';
+import { environment } from './../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChatService {
 
-   private  connection: any = new signalR.HubConnectionBuilder().withUrl("https://localhost:44379/chatsocket")   // mapping to the chathub as in startup.cs
+   private  connection: any = new signalR.HubConnectionBuilder().withUrl(environment.hubConnectionURL)   // mapping to the chathub as in startup.cs
                                          .configureLogging(signalR.LogLevel.Information)
                                          .build();
-   readonly POST_URL = "https://localhost:44379/api/chat/send"
+   readonly POST_URL = environment.broadcastURL;
 
   private receivedMessageObject: MessageDto = new MessageDto();
   private sharedObj = new Subject<MessageDto>();
