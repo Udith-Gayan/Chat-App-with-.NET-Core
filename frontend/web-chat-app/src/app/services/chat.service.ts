@@ -10,10 +10,12 @@ import { environment } from './../../environments/environment';
 })
 export class ChatService {
 
+
    private  connection: any = new signalR.HubConnectionBuilder().withUrl(environment.hubConnectionURL)   // mapping to the chathub as in startup.cs
                                          .configureLogging(signalR.LogLevel.Information)
                                          .build();
    readonly POST_URL = environment.broadcastURL;
+
 
   private receivedMessageObject: MessageDto = new MessageDto();
   private sharedObj = new Subject<MessageDto>();
